@@ -1,0 +1,66 @@
+#login-client #error_received{
+  color: red;
+  margin-top: 6%;
+}
+
+#login-client span {
+    float: right;
+    font-size: 0.8em;
+    /* background: red; */
+  }
+  
+  #login-client .button-margin {
+    margin: 1em 0 0 0;
+    width: 12em;
+  }
+  
+  #login-client .buttons {
+    padding: 1em 0;
+  }
+  
+  #login-client .btn-active {
+    width: 50%;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  #login-client .btn-sec {
+    width: 50%;
+    color: #696969;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  @media all and (min-width: 992px) {
+    #login-client .login-card {
+      width: 20em;
+    }
+    #login-client {
+      padding-top: 10em;
+    }
+  }
+  
+  @media all and (min-width: 900px) {
+    #login-client img {
+      height: 35em;
+      width: 40em;
+    }
+  }
+  
+  @media all and (max-width: 992px) {
+    #login-client .login-card {
+      width: 20em;
+      margin-left: auto;
+      margin-right: auto;
+  
+      /* border: 1px solid #ccc; */
+      /* padding: 2em 4em; */
+    }
+    #login-client {
+      padding-top: 5em;
+    }
+  }
+  

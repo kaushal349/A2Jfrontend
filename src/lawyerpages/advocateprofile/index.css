@@ -1,0 +1,95 @@
+#lawyerprofile .btn-custom{
+    background-color: #0e2f56;
+    color: whitesmoke;
+    width: 12em;
+}
+
+#lawyerprofile .shortnote{
+    border: solid;
+    border-width: thin;
+    margin: 2%;
+    padding: 2%;
+    color: #0e2f56;
+}
+
+#lawyerprofile {
+    margin: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#profileimageparent{
+    width: 8rem;
+}
+
+#profileimage{
+    width: 100%;
+    border-radius: 25%;
+}
+
+#lawyerprofile .imp_details{
+    border: solid;
+    border-width: thin;
+    padding: 3%;
+    box-shadow: 5px 5px  skyblue;
+}
+
+#lawyerprofile .checked{
+    color: orangered;
+}
+
+#lawyerprofile .lawyer_accordian{
+    margin: 4%;
+}
+
+#lawyerprofile #lawyerinfo{
+    border: solid;
+    border-width: thin;
+    padding: 2% 1% 2% 6%;
+    margin: 2%;
+}
+
+#lawyerprofile .bgdivrow{
+    background-color: #0e2f56;
+    width:100%;
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 3%;
+    margin-top: 2%;
+    color: whitesmoke;
+}
+
+#lawyerprofile #stories{
+    text-align: center;
+    margin-top: 4%;
+}
+
+#lawyerprofile #qanda{
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 10%;
+}
+
+
+#photogallery{
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.profileblocks{
+    margin: 1%;
+    padding: 2%;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(43, 183, 226);
+}
+
+#errorblock{
+    text-align: right;
+    margin:5%;
+
+}
+
+
+#feedbacks{
+    margin: 2%;
+}

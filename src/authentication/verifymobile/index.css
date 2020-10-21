@@ -1,0 +1,84 @@
+#verifymobile #error_received{
+  color: red;
+  margin-top: 6%;
+}
+
+
+#verifymobile span {
+    float: right;
+    font-size: 0.8em;
+    /* background: red; */
+  }
+  
+  #verifymobile .button-margin {
+    margin: 1em 0 0 0;
+    width: 12em;
+  }
+  
+  #verifymobile .otp-div {
+    border: 0.5px solid gray;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #verifymobile .buttons {
+    padding: 1em 0;
+  }
+  
+  #verifymobile .advocate-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #verifymobile .join-a2j {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  #verifymobile .btn-active {
+    width: 50%;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  #verifymobile .btn-sec {
+    width: 50%;
+    color: #696969;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  @media all and (min-width: 992px) {
+    #verifymobile .login-card {
+      width: 30em;
+    }
+    #verifymobile {
+      padding-top: 10em;
+    }
+  }
+  
+  @media all and (min-width: 900px) {
+    #verifymobile img {
+      height: 35em;
+      width: 40em;
+    }
+  }
+  
+  @media all and (max-width: 992px) {
+    #verifymobile .login-card {
+      width: 30em;
+      margin-left: auto;
+      margin-right: auto;
+      /* border: 1px solid #ccc; */
+      /* padding: 2em 4em; */
+    }
+    #verifymobile {
+      padding-top: 5em;
+    }
+  }
+  

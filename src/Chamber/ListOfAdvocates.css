@@ -1,0 +1,33 @@
+#chamber-list-advocates {
+  padding: 2em;
+}
+
+#chamber-list-advocates .name-field {
+  max-width: 20em;
+}
+
+#chamber-list-advocates .date-field {
+  padding: 6px 12px !important;
+  background: white;
+}
+
+#chamber-list-advocates .advocate-tile {
+  max-height: 20em;
+  overflow: auto;
+  box-shadow: 5px 5px 4px -6px #000000;
+}
+
+#chamber-list-advocates .existing-advocate-heading {
+  font-weight: bold;
+  color: gray;
+}
+
+#chamber-list-advocates .advocate-tile-heading {
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 800px) {
+  #chamber-list-advocates {
+    padding: 0 2em 0;
+  }
+}

@@ -1,0 +1,142 @@
+#advocatelist{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#advocatelist .selectrow{
+    background-color: rgb(18, 112, 175);
+    padding:1px;
+}
+
+#advocatelist #select1{
+    margin-left: 8%;
+}
+
+#advocatelist #select2{
+    margin-left: 2%;
+}
+
+#advocatelist #select3{
+    margin-left: 30%;
+    color: whitesmoke;
+}
+
+.eachadvocate {
+    margin: 2% 4% 1% 4%;
+    border: solid;
+    border-width: thin;
+    text-align: center;
+    border-color: rgb(18, 112, 175);
+
+}
+
+.eachadvocate .col1{
+    padding: 2%;
+    padding-left: 5%;
+}
+
+
+
+.eachadvocate .col2{
+    padding: 2%;
+    text-align: left;
+    padding-left: 12%;
+}
+
+.eachadvocate img{
+    border-radius: 50%;
+    height: 12em;
+    width: 12em;
+}
+
+.eachadvocate .col12{
+    text-align: left;
+}
+
+/*
+import React,{ Component } from 'react'
+import axios from 'axios'
+import {connect} from 'react-redux'
+import {Link} from 'react-router-dom'
+import './index.css'
+import Search from '../../home/components/search'
+
+class LawyerList extends Component{
+    constructor(props){
+        super(props)
+        this.state={
+            lawyers:[],
+            loading :true,
+            keyword:this.props.match.params.keyword,
+            location:this.props.match.params.location, 
+        }
+    }
+
+    async componentDidMount(){
+        console.log(this.state.keyword)
+        axios.get('lawyer/lawyersearchdetails/',{
+            params: {
+                keyword:this.state.keyword,
+                location:this.state.location,
+            }
+        }).then(res => {
+                this.setState({lawyers:res.data,loading:false})
+            }).catch(err => {
+                console.log(err.response)
+            })
+    }
+    
+    render(){
+        return(
+            <div>
+                {this.state.loading?null:(
+                   <div id = "advocatelist">
+                   <div>
+                       <Search />
+                   </div>
+                   <div>
+                       <div className="row selectrow">
+                           <div id="select1">
+                               <select className="selectpicker">
+                                   <option>option1</option>
+                                   <option>option2</option>
+                                   <option>option3</option>
+                               </select>
+                           </div>
+                           <div id="select2">
+                               <select className="selectpicker" id="select2">
+                                   <option>option1</option>
+                                   <option>option2</option>
+                                   <option>option3</option>
+                               </select>
+                           </div>
+                           <div id="select3">
+                               Sort by:&nbsp;&nbsp;
+                               <select className="selectpicker" id="select2">
+                                   <option>option1</option>
+                                   <option>option2</option>
+                                   <option>option3</option>
+                               </select>
+                           </div>  
+                       </div>
+                      
+                   </div>
+               </div>
+                )}   
+            </div>
+        )
+    }
+}
+
+const mapStateToProps = (state) => {
+    return {
+        token:state.token,
+        user_id:state.user_id,
+        user_type:state.user_type,
+    }
+}
+
+
+export default LawyerList
+
+*/

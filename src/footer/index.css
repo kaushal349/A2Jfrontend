@@ -1,0 +1,17 @@
+#footer {
+    background: #0e2f56;
+    padding: 2em;
+    color: white;
+  }
+  
+  #footer .heading {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  #footer .class-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

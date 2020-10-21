@@ -1,0 +1,168 @@
+#book-appointments-2 {
+    padding: 5em 0;
+  }
+  
+  #book-appointments-2 .img-1 {
+    height: 200px;
+  }
+  
+  #book-appointments-2 .box-1 {
+    width: 750px;
+    padding: 30px 30px 0 30px;
+  }
+  
+  #book-appointments-2 .box-1-inner {
+    display: flex;
+  }
+  
+  #book-appointments-2 .box-2 {
+    padding: 25px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #book-appointments-2 .outer-box {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #book-appointments-2 .appointment-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+  }
+  
+  #book-appointments-2 .btn-rounded {
+    background-color: #0020c2;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 40px;
+  }
+  
+  #book-appointments-2 .btn-rounded-2 {
+    background-color: #716092;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 40px;
+  }
+  
+  #book-appointments-2 .timer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  #book-appointments-2 .advocate-details {
+    padding: 0 0 0 45px;
+  }
+  
+  @media all and (max-width: 570px) {
+    #book-appointments-2 .appointment-details {
+      align-items: center;
+      padding: 2em 0;
+    }
+  }
+  
+  @media all and (max-width: 1195px) {
+    #book-appointments-2 .outer-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #book-appointments-2 .box-2 {
+      padding: 45px 0 0 30px;
+      display: flex;
+      width: 750px;
+    }
+  }
+  
+  @media all and (max-width: 824px) {
+    #book-appointments-2 .outer-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #book-appointments-2 .box-2 {
+      padding: 45px 0 0 30px;
+      display: flex;
+      width: 600px;
+    }
+    #book-appointments-2 .box-1 {
+      width: 600px;
+      padding: 30px 30px 0 30px;
+    }
+  }
+  
+  @media all and (max-width: 660px) {
+    #book-appointments-2 .outer-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #book-appointments-2 .box-2 {
+      padding: 45px 0 0 30px;
+      display: flex;
+      width: 500px;
+    }
+    #book-appointments-2 .box-1 {
+      width: 500px;
+      padding: 30px 30px 0 30px;
+    }
+    #book-appointments-2 .img-1 {
+      height: 140px;
+    }
+  }
+  
+  @media all and (max-width: 575px) {
+    #book-appointments-2 .outer-box {
+      display: flex;
+      flex-direction: column;
+    }
+    #book-appointments-2 .box-2 {
+      padding: 45px 0 0 30px;
+      display: flex;
+      width: 450px;
+    }
+    #book-appointments-2 .box-1 {
+      width: 450px;
+      padding: 30px 30px 0 30px;
+    }
+  
+    #book-appointments-2 .box-1-inner {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #book-appointments-2 .img-1 {
+      height: 200px;
+      width: 200px;
+      margin-bottom: 16px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #book-appointments-2 .advocate-details {
+      padding: 15px 0 0 15px;
+    }
+    #book-appointments-2 .appointment-details {
+      padding: 15px 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  }
+  
+  @media all and (max-width: 500px) {
+    #book-appointments-2 .box-1 {
+      width: 100%;
+      padding: 15px 15px 0 15px;
+    }
+    #book-appointments-2 .box-2 {
+      padding: 45px 15px 0 15px;
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+#new-story {
+    padding-top: 2em;
+  }
+  
+  #new-story .header {
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  
+  #new-story .label-enhance {
+    font-weight: bold;
+    color: gray;
+  }
+  
+  #new-story .name-field {
+    max-width: 20em;
+  }
+  
+  #new-story .gender-field {
+    max-width: 10em;
+  }
+  #new-story .custom-btn {
+    margin-top: 2em;
+    max-width: 15em;
+    margin-bottom: 2em;
+  }
+  

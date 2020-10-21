@@ -1,0 +1,30 @@
+#full-story {
+    margin-top: 5em;
+  }
+  
+  #full-story .title {
+    /* font-weight: bold; */
+    font-size: 1.8em;
+    font-family: "Metal Mania", cursive;
+    letter-spacing: 0.1em;
+  }
+  
+  #full-story .img1 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    min-height: 30vh;
+    max-height: 60vh;
+  }
+  
+  #full-story .content {
+    /* font-family: "Dancing Script", cursive; */
+    font-size: 1.3em;
+  }
+  
+  #full-story .connect-btn {
+    margin-top: 2em;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+    margin-bottom: 2em;
+  }
+  

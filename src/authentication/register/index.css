@@ -1,0 +1,84 @@
+#register-client #error_received{
+  color: red;
+  margin-top: 6%;
+}
+
+
+#register-client span {
+    float: right;
+    font-size: 0.8em;
+    /* background: red; */
+  }
+  
+  #register-client .button-margin {
+    margin: 1em 0 0 0;
+    width: 12em;
+  }
+  
+  #register-client .otp-div {
+    border: 0.5px solid gray;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #register-client .buttons {
+    padding: 1em 0;
+  }
+  
+  #register-client .advocate-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #register-client .join-a2j {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  #register-client .btn-active {
+    width: 50%;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  #register-client .btn-sec {
+    width: 50%;
+    color: #696969;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  @media all and (min-width: 992px) {
+    #register-client .login-card {
+      width: 30em;
+    }
+    #register-client {
+      padding-top: 10em;
+    }
+  }
+  
+  @media all and (min-width: 900px) {
+    #register-client img {
+      height: 35em;
+      width: 40em;
+    }
+  }
+  
+  @media all and (max-width: 992px) {
+    #register-client .login-card {
+      width: 30em;
+      margin-left: auto;
+      margin-right: auto;
+      /* border: 1px solid #ccc; */
+      /* padding: 2em 4em; */
+    }
+    #register-client {
+      padding-top: 5em;
+    }
+  }
+  

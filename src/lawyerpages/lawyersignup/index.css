@@ -1,0 +1,100 @@
+#register-advocate #error_received{
+  color: red;
+  margin-top: 6%;
+}
+
+
+#register-advocate span {
+    float: right;
+    font-size: 0.8em;
+    /* background: red; */
+  }
+  
+  #register-advocate .button-margin {
+    margin: 1em 0 0 0;
+    width: 12em;
+  }
+  
+  #register-advocate .otp-div {
+    border: 0.5px solid gray;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  
+  #register-advocate .buttons {
+    padding: 1em 0;
+  }
+  
+  #register-advocate .advocate-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #register-advocate .join-a2j {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  
+  #register-advocate .left-pane {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #register-advocate .heading1 {
+    font-weight: bold;
+  }
+  
+  #register-advocate .btn-active {
+    width: 50%;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  #register-advocate .btn-sec {
+    width: 50%;
+    color: #696969;
+    font-weight: bold;
+    font-size: 1.5em;
+    box-shadow: 3px 3px 5px 3px #ccc;
+  }
+  
+  @media all and (max-width: 992px) {
+    #register-advocate .left-pane {
+      display: none;
+    }
+  }
+  
+  @media all and (min-width: 992px) {
+    #register-advocate .login-card {
+      width: 30em;
+    }
+    #register-advocate {
+      padding-top: 10em;
+    }
+  }
+  
+  @media all and (min-width: 900px) {
+    #register-advocate img {
+      height: 30em;
+      width: 30em;
+    }
+  }
+  
+  @media all and (max-width: 992px) {
+    #register-advocate .login-card {
+      width: 30em;
+      margin-left: auto;
+      margin-right: auto;
+      /* border: 1px solid #ccc; */
+      /* padding: 2em 4em; */
+    }
+    #register-advocate {
+      padding-top: 5em;
+    }
+  }
+  

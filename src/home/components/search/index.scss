@@ -1,0 +1,37 @@
+#search{
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+#search input{
+    margin-top: 4%;
+    height: 2em;
+    font-size: 1em;
+}
+
+#search input::placeholder{
+    font-size: 0.75em;
+}
+
+#search a{
+    font-size: 0.75em;
+}
+
+.searchresults{
+    border: thin;
+    
+}
+
+#search .btn-custom{
+    background-color: #0e2f56;
+    color: whitesmoke;
+}
+
+#search .searchresults{
+    margin-top: 5%;
+    border: solid;
+    border-width: thin;
+    text-align: center;
+    //box-shadow: 1px 1px #0e2f56, -1em 0 .4em rgb(0, 55, 128);
+    box-shadow: 1px 1px 1px 1px rgb(8, 16, 88);
+}

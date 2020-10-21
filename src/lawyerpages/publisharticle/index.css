@@ -1,0 +1,26 @@
+#lawyer-publish-article {
+    padding: 2em;
+  }
+  
+  #lawyer-publish-article .content-header {
+    line-height: 1.5em;
+  }
+  
+  #lawyer-publish-article hr {
+    margin-bottom: 4em;
+  }
+  
+  #lawyer-publish-article .title-field {
+    max-width: 40em;
+  }
+  
+  #lawyer-publish-article .topic-field {
+    max-width: 20em;
+  }
+  
+  @media screen and (max-width: 800px) {
+    #lawyer-publish-article {
+      padding: 0 2em 0;
+    }
+  }
+  
