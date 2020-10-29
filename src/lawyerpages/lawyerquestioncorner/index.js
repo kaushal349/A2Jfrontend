@@ -122,9 +122,9 @@ class LawyerQuestionCorner extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <LawyerNavbar />
+        {/* <LawyerNavbar /> */}
         <div id="lawyer-portal-3">
-          <div className="sidebar">
+          {/* <div className="sidebar">
             <div className="row justify-content-center align-items-center sidebar-header">
               <div className="col-12 d-flex justify-content-center align-items-center">
                 <img
@@ -149,7 +149,7 @@ class LawyerQuestionCorner extends React.Component {
             </div>
           </div>
 
-          <div className="content">
+          <div className="content"> */}
             <h2 className="content-header">Questions posted to Mr/Mrs. XYZ</h2>
             <hr />
             <div>
@@ -160,7 +160,7 @@ class LawyerQuestionCorner extends React.Component {
               :<h4>Loading...</h4>}
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </React.Fragment>
     );
   }

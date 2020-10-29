@@ -4,9 +4,6 @@ import {Route,Switch} from 'react-router-dom'
 import * as  actions from './store/actions/auth'
 import {connect} from 'react-redux'
 
-//NavBar 
-import NavBar from './navbar/index'
-
 //Pages
 import Home from './home'
 import StoryPostSubmit from './getinspired/storypostsubmit';
@@ -26,7 +23,6 @@ import LawyerSidebar from './lawyerpages/lawyersidebar';
 import LawyerQuestionCorner from './lawyerpages/lawyerquestioncorner';
 import LawyerClientStory from './lawyerpages/lawyerclientstory';
 import LawyerSignup from './lawyerpages/lawyersignup';
-import LawyerSearchDetails from './lawyerpages/lawyersearchdetails'
 import LawyerList from './lawyerpages/lawyerlist'
 import LawyerProfile from './lawyerpages/advocateprofile'
 import LawyerPortal from './lawyerpages/lawyerportal'

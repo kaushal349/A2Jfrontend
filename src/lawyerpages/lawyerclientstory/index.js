@@ -74,9 +74,9 @@ componentDidUpdate = (user_id) => {
   render() {
     return (
       <React.Fragment>
-      <LawyerNavbar />
+      {/* <LawyerNavbar /> */}
         <div id="lawyer-portal-2">
-          <div className="sidebar">
+          {/* <div className="sidebar">
             <div className="row justify-content-center align-items-center sidebar-header">
               <div className="col-12 d-flex justify-content-center align-items-center">
                 <img
@@ -100,9 +100,9 @@ componentDidUpdate = (user_id) => {
               </a>
               <a href="#about">Register a query</a>
             </div>
-          </div>
+          </div> */}
 
-          <div className="content">
+          {/* <div className="content"> */}
             <h2 className="client-stories-heading">Your client stories</h2>
             <form>
               <ul className="content-header">
@@ -142,7 +142,7 @@ componentDidUpdate = (user_id) => {
               )):<h4>Loading...</h4>}
             </div>
             
-          </div>
+          {/* </div> */}
         </div>
       </React.Fragment>
     );

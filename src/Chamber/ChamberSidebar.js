@@ -30,7 +30,7 @@ class ChamberSidebar extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <ChamberNavbar />
+        {/* <ChamberNavbar /> */}
         <div className="container-fluid px-0" id="chamber-dashboard">
           {/* create dashboard accordian */}
           <div className="row">

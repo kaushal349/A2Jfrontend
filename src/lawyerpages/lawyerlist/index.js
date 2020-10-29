@@ -73,7 +73,7 @@ class LawyerList extends Component{
                                         <div className="row">
                                             <div className="col-md-6 col11">
                                                 <div className="imgparentdiv">
-                                                    <img src={require('./images/profile1.jpg')} alt="My Picture"/>
+                                                    <img src={require('./images/profile1.jpg')} alt="profile"/>
                                                 </div>
                                             </div>
                                             <div className="col-md-6 col12">
